@@ -135,3 +135,14 @@
     background: #86B404;
     text-decoration: none;
 }
+
+.body{
+    height: 100vh;
+    background-color: #848484;
+}
+
+.container {
+    color: #fff;
+    text-align: center;
+    padding:150px 0;
+}
