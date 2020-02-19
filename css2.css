@@ -7,6 +7,7 @@
     background-image: url("imgs/img1.png");
     background-size: cover;
     height: 100vh;
+    position:relative;
 }
 
 .header-title {
@@ -108,6 +109,29 @@
 }
 
 .buttun {
-    text-align: center;
-    margin-top:-250px;
+    position: absolute;
+    top: 75%;
+    left:50%;
+    transform : translate(-50%,-50%);
+    
+}
+
+.btn-2 {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.4em 1.6em;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: 1px #fff solid;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.btn-2:hover {
+    color: #fff;
+    background: #86B404;
+    text-decoration: none;
 }
