@@ -139,7 +139,7 @@
 
 .btn-2:hover {
     color: #fff;
-    background: #86B404;
+    background: #848484;
     text-decoration: none;
 }
 
@@ -157,7 +157,7 @@
 .title {
     position: absolute;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left:50%;
     transform : translate(-50%,-50%);
 }
